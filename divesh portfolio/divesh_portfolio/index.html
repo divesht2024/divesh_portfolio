@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="https://kit.fontawesome.com/b4bd1eb4c7.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel&family=Dosis:wght@200&family=Lobster&family=Poppins:wght@300&family=Tilt+Prism&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Montserrat:wght@200&family=Raleway:wght@300&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+
+  <link rel="icon" type="image/x-icon" href="./assets/profile_photo-57940299-57940299.jp">
+  <title>Divesh's Portfolio</title>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navItems = document.querySelector('.hidden-nav-items');
+
+    navToggle.addEventListener('change', () => {
+      if (navToggle.checked) {
+        navItems.classList.add('show-nav-items');
+      } else {
+        navItems.classList.remove('show-nav-items');
+      }
+    });
+  </script>
+  <link rel="stylesheet" href="./assets/index-6e79be6a.css">
+</head>
+
+<body>
+
+
+  <div id="full-content">
+    <!-- Nav Bar -->
+    <nav class="myname flex bg-[#022a53] text-white justify-around py-3 font-light hover:cursor-pointer" id="Nav"
+      style="font-family: 'Raleway', sans-serif;">
+      <img src="./assets/image.png" class="h-[40px]" alt="">
+      <input type="checkbox" id="navToggle">
+      <label for="navToggle" class="vis">&#9776;</label>
+      <ul class="flex space-x-0 lg:space-x-10 text-xl hidden-nav-items font-medium">
+        <a href="#About-me">
+          <li class=" px-1 py-1 nav-anchor">About</li>
+        </a>
+        <a href="#Projects">
+          <li class=" px-1 py-1 nav-anchor">Projects</li>
+        </a>
+        <a href="#Skills">
+          <li class=" px-1 py-1 nav-anchor">Skills</li>
+        </a>
+        <a href="#Contact">
+          <li class=" px-1 py-1 nav-anchor">Contact</li>
+        </a>
+      </ul>
+    </nav>
+
+
+    <!--Introduction Page-->
+    <div class="wrapper w-full relative">
+      <div class="About-me w-full flex flex-col md:flex-row justify-around py-28 lg:py-32 static text-5xl"
+        id="About-me">
+        <div class="max-w-[50%] flex flex-col justify-between  mt-20 gap-10 mx-auto md:mx-0">
+          <div class="img-wrap mx-auto">
+            <img src="./assets/denver.JPG" class="my-img" width="360" height="360" alt="">
+          </div>
+        </div>
+        <div class=" text-black  flex flex-col  max-w-[800px] ml-10 mr-10 lg:ml-0 lg:mr-0 mt-10"
+          style="font-family: 'Bowlby One SC', cursive;">
+          <div class="flex flex-col w-full gap-8 ml-5">
+            <div class="flex flex-col gap-8">
+              <h1 class="text-4xl  lg:text-7xl mt-20 hand ">Hi There <i class="fa-solid fa-hand fa-bounce"
+                  style="color: #f2ad3e;"></i> Iam</h1>
+              <span class="text-[#5aa0eb] font-normal text-6xl">Divesh Tayade</span>
+            </div>
+            <div>
+              <h3 class="text-[#000000]  sm:text-5xl text-3xl">Iam a Passionate</h3>
+              <span id="element" class="text-2xl lg:text-5xl font-normal"></span>
+            </div>
+
+
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+              var typed = new Typed('#element', {
+                strings: ['Frontend Developer', 'UI Designer', 'Penetration Tester',],
+                typeSpeed: 50,
+              });
+            </script>
+          </div>
+
+
+          <div class="flex justify-center align-middle h-40 py-32">
+            <div class="about-btn">
+              <span class="hover:text-white text-5xl"><a href="./assets/resume.pdf" target="_blank">Resume</a></span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="w-[70vw] h-0.5 bg-slate-500 rounded-sm mx-auto"></div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Projects -->
+
+    <div class="flex flex-col gap-10 py-48" id="Projects">
+      <div class="flex flex-col gap-5">
+        <div class=" text-8xl font-extralight h-[15%] rounded-3xl text-[#000000] mx-auto">
+          <!-- <h1 style="font-family: 'Poppins', sans-serif;">Projects</h1> -->
+          <div class="waviy font-bold text-5xl lg:text-7xl">
+            <span style="--i:1">P</span>
+            <span style="--i:2">r</span>
+            <span style="--i:3">o</span>
+            <span style="--i:4">j</span>
+            <span style="--i:5">e</span>
+            <span style="--i:6">c</span>
+            <span style="--i:7">t</span>
+            <span style="--i:8">s</span>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="w-[15vw] h-1 bg-[#79a4cc] rounded-sm mx-auto"></div>
+
+      <section class="md:h-full flex flex-col lg:flex-row text-gray-600">
+        <div class="p-4 sm:w-1/2 lg:w-1/3 mx-auto">
+          <div class="h-full border-2 border-gray-250 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-72 md:h-48 w-full object-cover object-center" src="./assets/gaming.png" alt="blog">
+            <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+              <h1 class="text-2xl font-semibold mb-3">EPIC GAMES</h1>
+              <h2 class="text-base font-medium text-blue mb-1">A real time Gaming Website
+                features</h2>
+
+              <p class="leading-relaxed mb-3">HTML, CSS, and JavaScript
+                form the fundamental building blocks for creating interactive and visually appealing websites. A gaming website is an excellent project to apply these technologies.
+              </p>
+              <h2 class="text-base font-medium text-black mb-1">Technologies Used : HTML, CSS, Javascript
+              </h2>
+              <div class="flex items-center flex-wrap ">
+
+                <a href="https://66afabd79e097ec905ed7cff--rainbow-basbousa-203266.netlify.app/" target="_blank"
+                  class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Live Demo</a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1
+                     "></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 sm:w-1/2 lg:w-1/3 mx-auto">
+          <div class="h-full border-2 border-gray-250 border-opacity-60 rounded-lg overflow-hidden">
+            <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+              src="https://24slides.com/templates/assets/templates-previews/vQ2pzZvv792DirqF3iQNjH38jY8n9jBfFs3OzQxQ.jpg"
+              alt="blog">
+            <div class="p-6 hover:bg-indigo-700 hover:text-white transition duration-300 ease-in">
+              <h1 class="text-2xl font-semibold mb-3">SPOTIFY</h1>
+              <h2 class="text-base font-medium text-blue mb-1">
+              </h2>
+
+              <p class="leading-relaxed mb-3">As part of learning to code,I completed a project that involved creating a
+                basic Spotify clone using HTML, CSS, and JavaScript. This project was designed to showcase my skills in
+                front-end web development.It is a responsive and user-friendly web application that allows users to play
+                music.I used HTML and CSS to design and style the interface, and I implemented JavaScript to handle user
+                input and interaction such as basic playback controls -play, pause, and next.I also gained experience
+                working with version control tools such as Git and GitHub.
+              </p>
+            </p>
+            <h2 class="text-base font-medium text-black mb-1">Technologies Used : HTML, CSS, Javascript
+            </h2
+              <br>
+              <div class="flex items-center flex-wrap ">
+
+                <a href="https://66af93c865041db146dccffa--lovely-fox-058f43.netlify.app/" target="_blank"
+                  class="text-indigo-300 inline-flex items-center md:mb-2 lg:mb-0">Live Demo</a>
+                <span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1
+                   "></span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="md:h-full flex items-center text-gray-600">
+
+      </section>
+
+
+
+
+      <!-- Technical Skills -->
+      <div class="static flex flex-col   mt-48  w-full mb-32 gap-16" id="Skills">
+        <div class="flex flex-col gap-12 py-5">
+          <div class=" text-7xl font-thin h-[15%] rounded-3xl text-[#000000] mx-auto">
+            <!-- <h1 style="font-family: 'Poppins', sans-serif;">Technical Skills</h1> -->
+            <div class="waviy font-bold text-4xl lg:text-7xl">
+              <div class="flex flex-col lg:flex-row">
+                <div>
+                  <span style="--i:1">T</span>
+                  <span style="--i:2">e</span>
+                  <span style="--i:3">c</span>
+                  <span style="--i:4">h</span>
+                  <span style="--i:5">n</span>
+                  <span style="--i:6">i</span>
+                  <span style="--i:7">c</span>
+                  <span style="--i:8">a</span>
+                  <span style="--i:8">l</span>
+                </div>
+                <div>
+                  <span style="--i:8"></span>
+                  <span style="--i:8"></span>
+                  <span style="--i:8"></span>
+                  <span style="--i:8">s</span>
+                  <span style="--i:8">k</span>
+                  <span style="--i:8">i</span>
+                  <span style="--i:8">l</span>
+                  <span style="--i:8">l</span>
+                  <span style="--i:8">s</span>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          <div class="w-[5vw] h-1 bg-slate-500 rounded-sm mx-auto"></div>
+        </div>
+
+        <div class="flex flex-col gap-10 mt-20">
+          <div class="flex justify-evenly">
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/cpp-5f0eef80-5f0eef80.png" style="width: 80px;" class="image-container" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">C++</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/html-150fbb08-150fbb08.png" style="width: 80px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">HTML</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/tailwind-c9b1b04e.png" style="width: 100px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">TAILWIND CSS
+              </h4>
+            </div>
+          </div>
+
+          <div class="flex justify-evenly">
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/css-2925f7ac-2925f7ac.webp" style="width: 80px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">CSS</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/js-8737eb9c-8737eb9c.webp" style="width: 80px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">JAVASCRIPT</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTfhqq7DNMNp0RC_9uDakb6SScYBbLC8UbyA&s"
+                style="width: 100px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">React.js</h4>
+            </div>
+          </div>
+
+          <div class="flex justify-evenly">
+            <div class="text-black flex flex-col gap-5">
+              <img
+                src="data:image/png;base64,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"
+                style="width: 80px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">MySql</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="https://w7.pngwing.com/pngs/991/165/png-transparent-docker-hd-logo-thumbnail.png"
+                style="width: 80px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">DOCKER</h4>
+            </div>
+            <div class="text-black flex flex-col gap-5">
+              <img src="./assets/jenkins.png" style="width: 100px;" alt="">
+              <h4 style="font-family: 'Poppins', sans-serif;" class="justify-center font-normal mx-auto">JENKINS</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div>
+        <div class="w-[70vw] h-0.5 bg-slate-500 rounded-sm mx-auto"></div>
+      </div>
+
+
+
+      <!-- Coding Profiles -->
+      <div class="flex flex-row w-full justify-center mt-20">
+        <img src="./assets/coding-e228c10c.png" class="coding-img w-[700px] h-[50vh] mt-28" alt="">
+        <div
+          class="  static w-[80vw] lg:w-[50vw] h-[40vh] flex flex-col  mx-auto mt-20 gap-5 justify-around text-black coding-profiles">
+          <div class="flex flex-col gap-12 ">
+            <div class="text-2xl lg:text-7xl mx-auto">
+              <!-- <h1 style="font-family: 'Poppins', sans-serif;">Coding Profiles</h1> -->
+              <div class="waviy font-bold text-4xl lg:text-7xl">
+                <div class="flex flex-col lg:flex-row">
+                  <div>
+                    <span style="--i:1">S</span>
+                    <span style="--i:2">o</span>
+                    <span style="--i:3">c</span>
+                    <span style="--i:4">i</span>
+                    <span style="--i:5">a</span>
+                    <span style="--i:6">l</span>
+                  </div>
+
+                  <div>
+                    <span style="--i:8">P</span>
+                    <span style="--i:8">r</span>
+                    <span style="--i:8">o</span>
+                    <span style="--i:8">f</span>
+                    <span style="--i:8">i</span>
+                    <span style="--i:8">l</span>
+                    <span style="--i:8">e</span>
+                    <span style="--i:8">s</span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <div class="w-[20vw] h-1 bg-[#26dcab] rounded-sm mx-auto"></div>
+          </div>
+
+
+          <div class="flex flex-col gap-16 mt-24">
+            <div class="flex justify-around hover:cursor-pointer text-xl font-medium"
+              style="font-family: 'Montserrat', sans-serif;">
+              <div class="flex flex-row gap-2">
+                <img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" class="width-[20px] h-10"
+                  alt="">
+                <a href="https://github.com/divesht2024" target="_blank" class="py-2">
+                  <h2 class="hover:text-[#2686e7] hover:underline hover:text-2xl py-2">Github</h2>
+                </a>
+              </div>
+
+              <div class="flex flex-row gap-3">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="width-[20px] h-8" alt="">
+                <a href="https://www.linkedin.com/in/divesh-tayade-4a010124a/" target="_blank" class="py-2">
+                  <h2 class="hover:text-[#2686e7] hover:underline hover:text-2xl">Linkedin</h2>
+                </a>
+              </div>
+
+
+            </div>
+            <div class="flex justify-around hover:cursor-pointer text-xl font-medium"
+              style="font-family: 'Montserrat', sans-serif;">
+              <div class="flex gap-2">
+                <div class="flex flex-row gap-3 ">
+                  <img
+                    src="https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1722643200&semt=ais_hybrid"
+                    class="width-[20px] h-12" alt="">
+                  <a href="https://auth.geeksforgeeks.org/user/virajtakone304/practice" target="_blank">
+                    <h2 class="hover:text-[#2686e7] hover:underline hover:text-2xl py-3">Instagram</h2>
+                  </a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Contact Me -->
+      <section class="bg-[#80c2ff] mt-40" id="Contact">
+        <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
+          <h2 class="mb-4 text-5xl lg:text-7xl tracking-tight font-extrabold text-center text-gray-900 ">Contact Me</h2>
+          <!-- <div class="waviy font-bold text-7xl mb-10 text-center">
+        <span style="--i:1">C</span>
+        <span style="--i:2">o</span>
+        <span style="--i:3">n</span>
+        <span style="--i:4">t</span>
+        <span style="--i:5">a</span>
+        <span style="--i:6">c</span>
+        <span style="--i:7">t</span>
+        <span style="--i:8">M</span>
+        <span style="--i:8">e</span>
+        
+       </div> -->
+          <p class="mb-8 lg:mb-16 font-light text-center text-black sm:text-xl">Will Be Happy to help you,
+            Feel free to Contact Me</p>
+          <form action="#" class="space-y-8">
+            <div>
+              <label for="email" class="block mb-2 text-sm font-medium text-gray-900 ">Your email</label>
+              <input type="email" id="email"
+                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="mail@gmail.com" required>
+            </div>
+            <div>
+              <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 ">Subject</label>
+              <input type="text" id="subject"
+                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500  dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                placeholder="Let us know how I can help you" required>
+            </div>
+            <div class="sm:col-span-2">
+              <label for="message" class="block mb-2 text-sm font-medium text-gray-900 ">Your
+                message</label>
+              <textarea id="message" rows="6"
+                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500  dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                placeholder="Leave a comment..."></textarea>
+            </div>
+            <button type="submit" class=" custom-button2 rounded">Send message</button>
+          </form>
+        </div>
+      </section>
+
+
+
+
+      <!-- Lower Nav -->
+      <div class="w-full h-[10vh] md:h-[5vh] bg-[#267ed6] flex flex-col md:flex-row justify-around py-3 relative">
+
+        <div class="flex gap-5 text-xs md:text-base space-x-4" style="font-family: 'Poppins', sans-serif;">
+          <h2 class="space-x-4"><i class="fa-solid fa-phone" style="color: #000000;"></i> +91-7840979647</h2>
+          <h2><i class="fa-solid fa-envelope" style="color: #000000;"></i> diveshtayade20@gmail.com</h2>
+        </div>
+
+        <div class="flex">
+          <h1>Made By <span class="font-extrabold">@Divesh</span></h1>
+        </div>
+
+        <div class="w-[5vw] absolute top-0 right-0  h-[5vh] flex justify-center">
+
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+    <!-- Nav Button -->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><a href="#Nav"><i
+          class="fa-regular fa-circle-up fa-bounce text-5xl mt-2 hover:text-blue-500" class="nav-top"></i></a></button>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
